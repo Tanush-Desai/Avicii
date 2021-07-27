@@ -3,9 +3,9 @@ body, html {
 }
 
 .navbar {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 3% !important;
 }
 
 .avicii-white {
