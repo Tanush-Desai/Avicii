@@ -7,8 +7,8 @@ body, html {
     padding-left: 5%;
 }
 
-.avicii-light {
-    background-image: url("/Users/tanushdesai/Documents/Code/Avicii/avicii-white.jpg");
+.avicii-white {
+    background-image: url(../images/avicii-white.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -26,7 +26,7 @@ body, html {
 }
 
 .avicii-dark {
-    background-image: url("/Users/tanushdesai/Documents/Code/Avicii/avicii-dark.jpg");
+    background-image: url(../images/avicii-dark.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -68,7 +68,7 @@ p {
 .album-photos {
     height: 50%;
     width: 100%;
-    background-image: url("/Users/tanushdesai/Documents/Code/Avicii/all-album-images.png");
+    background-image: url(../images/all-album-images.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
