@@ -25,12 +25,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sacramento&display=swap" rel="stylesheet">
+    <!--Icon Link-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+  integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
 </head>
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
-        <a class="navbar-brand" href="#">Avicii</a>
+    <nav class="navbar fixed-top navbar-toggler navbar-light bg-transparent">
+        <a class="navbar-brand" href="#"><img style="width: 75px;" src="images/avicii-header.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -63,11 +67,13 @@
         <img class="al" src="images/avicii-logo.png" alt="">
     </div>
     <div class="avicii-dark"></div>
+    
     <div class="album-photos">
         <!-- <img class="album-imgs" src="avicii-true.png" alt="">
         <img class="album-imgs" src="avicii-stories.png" alt="">
         <img class="album-imgs" src="avicii-tim.png" alt=""> -->
     </div>
+    <h3 style="text-align: center; padding-top: 3%; font-size: 50px;">Albums</h3>
     <div class="albums">
         <div class="container">
             <div class="card-deck mb-3 text-center">
@@ -116,7 +122,7 @@
                             <li>Waiting For Love</li>
                             <li>Talk To Myself</li>
                             <li>Touch Me</li>
-                            <li>Ten More Days/li>
+                            <li>Ten More Days</li>
                             <li>For A Better Day</li>
                             <li>Broken Arrows</li>
                             <li>True Believer</li>
@@ -148,7 +154,7 @@
                             <li>Peace Of Mind</li>
                             <li>Heaven</li>
                             <li>SOS</li>
-                            <li>Tough Love/li>
+                            <li>Tough Love</li>
                             <li>Bad Reputation</li>
                             <li>Ain't A Thing</li>
                             <li>Hold The Line</li>
@@ -166,6 +172,34 @@
             </div>
         </div>
     </div>
+    <div id="carouselExampleIndicators" class="carousel slide overflow-hidden" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <h3>Example Song Test</h3>
+              <p>Example Album Test</p>
+  
+          </div>
+          <div class="carousel-item">
+
+          </div>
+          <div class="carousel-item">
+
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 </body>
 
 </html>

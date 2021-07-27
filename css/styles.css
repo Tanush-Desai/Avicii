@@ -3,8 +3,9 @@ body, html {
 }
 
 .navbar {
-    font-weight: bold;
     padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
 }
 
 .avicii-white {
@@ -52,7 +53,7 @@ p {
 
 .albums {
     size: 50%;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -75,6 +76,42 @@ p {
     background-size: cover;
 }
 
-/* .album-imgs {
-    width: 33%;
+.navbar-brand {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #d3d3d3;
+}
+
+.carousel {
+    text-align: center;
+    padding-bottom: 50px;
+    min-height: 250px;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: red;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid red;
+  background-image: none;
 } */
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 50px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 50px;
+  color: black;
+}
