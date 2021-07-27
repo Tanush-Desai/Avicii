@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+}
+
+.navbar {
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.avicii-light {
+    background-image: url("/Users/tanushdesai/Documents/Code/Avicii/avicii-white.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.avicii-dark {
+    background-image: url("/Users/tanushdesai/Documents/Code/Avicii/avicii-dark.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    padding-top: 3%;
+    font-family: 'Sacramento', cursive;
+    font-size: 75px;
+}
+
+p {
+    font-family: 'Righteous', cursive;
+}
+
+.al {
+    width: 35%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.albums {
+    size: 50%;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.album-photos {
+    height: 50%;
+    width: 100%;
+    background-image: url("/Users/tanushdesai/Documents/Code/Avicii/all-album-images.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .album-imgs {
+    width: 33%;
+} */
