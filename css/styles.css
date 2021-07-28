@@ -20,7 +20,7 @@ body, html {
 .about {
     text-align: center;
     color: black;
-    background-color: white;
+    background-color: #d3d3d3;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -52,10 +52,12 @@ p {
 }
 
 .albums {
+    background-color: white;
     size: 50%;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-left: 3%;
     padding-right: 3%;
+    margin-bottom: 0 !important;
 }
 
 .card-deck .card {
@@ -82,36 +84,33 @@ p {
 }
 
 .navbar-toggler {
-    background-color: #d3d3d3;
+    background-color: grey;
 }
 
 .carousel {
+    background-color: black;
     text-align: center;
     padding-bottom: 50px;
     min-height: 250px;
 }
 
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 50px;
-  width: 50px;
-  outline: red;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid red;
-  background-image: none;
-} */
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 50px;
-  color: black;
-  margin-bottom: 5px;
+
+.albums-background {
+    background-image: url(../images/avicii-picture.jpeg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 50px;
-  color: black;
+
+
+.dropdown-menu {
+    color: darkred;
+}
+
+.nav-link {
+    color: grey !important;
 }
