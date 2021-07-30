@@ -46,6 +46,15 @@ p {
     font-family: 'Righteous', cursive;
 }
 
+.avicii-icon {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: block;
+
+}
+
 .al {
     width: 35%;
     padding-top: 3%;
@@ -80,12 +89,45 @@ p {
 }
 
 .navbar-brand {
+    transition: 2s;
     font-size: 38px;
     font-weight: bold;
+    margin-top: 1em;
+}
+
+.navbar-brand:hover {
+
+    transition: 1s;
+    /* -ms-transform: rotate(20deg);  */
+    transform: rotate(90deg);
 }
 
 .navbar-toggler {
-    background-color: grey;
+    background-color: lightgray;
+}
+
+.navbar-toggler-icon {
+    background-color: lightgrey;
+    /* opacity: 70%; */
+    opacity: 70%;
+    height: 50px;
+    width: 50px;
+}
+
+#navbarNav {
+    display: none;
+
+}
+
+.parent {}
+
+div.parent:hover #navbarNav {
+    display: block;
+
+}
+
+.items {
+    position: absolute;
 }
 
 .carousel {
@@ -106,11 +148,6 @@ p {
     background-size: cover;
 }
 
-
-
-.dropdown-menu {
-    color: darkred;
-}
 
 .nav-link {
     color: grey !important;
