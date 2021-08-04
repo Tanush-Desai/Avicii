@@ -164,7 +164,7 @@ div.parent:hover #navbarNav {
 }
 
 .footer { 
-    background-image: url(../images/Paris\ 5.jpg);
+    background-image: url(../images/Paris\ 2.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -184,6 +184,6 @@ div.parent:hover #navbarNav {
     list-style: none;
     flex: 0 0 100%;
     color: white;
-    font-weight: 900;
     margin-bottom: 100px;
 }
+
