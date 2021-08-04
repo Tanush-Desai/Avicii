@@ -127,7 +127,13 @@ div.parent:hover #navbarNav {
 }
 
 .items {
+    text-align: left;
     position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-right: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 .carousel {
@@ -151,4 +157,33 @@ div.parent:hover #navbarNav {
 
 .nav-link {
     color: grey !important;
+}
+
+#navbarNav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer { 
+    background-image: url(../images/Paris\ 5.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+}
+
+.serv ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .serv ul li {
+    text-align: center;
+    list-style: none;
+    flex: 0 0 100%;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 100px;
 }
